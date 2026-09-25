@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square" alt="License" /></a>
@@ -53,9 +53,9 @@ Below is a comparison of top enterprise fraud prevention platforms sorted by **C
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore production engines, baseline ML models, synthetic datasets, and transaction monitoring tools. Repositories are sorted by **GitHub Star Count (Descending)** ⭐.
+Explore production engines, baseline ML models, synthetic datasets, and transaction monitoring tools. Repositories are sorted by **GitHub Stars_Count (Descending)** ⭐.
 
-| Repository | Stars | Key Features & Banking Use Case |
+| Repository | GitHub_Stars | Key Features & Banking Use Case |
 | :--- | :--- | :--- |
 | **[yzhao062/pyod](https://github.com/yzhao062/pyod)** 🐍 | [![PyOD Stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers) | Comprehensive Python toolkit for detecting outliers & anomalies in financial transaction features (Isolation Forest, LOF, Autoencoders). |
 | **[sagnikghoshcr7/Credit-Card-Fraud-Detection](https://github.com/sagnikghoshcr7/Credit-Card-Fraud-Detection)** 💳 | [![Credit Card Fraud Stars](https://img.shields.io/github/stars/sagnikghoshcr7/Credit-Card-Fraud-Detection?style=social&color=white)](https://github.com/sagnikghoshcr7/Credit-Card-Fraud-Detection/stargazers) | Machine learning pipeline benchmarked on credit card transaction data using supervised classifiers & SMOTE balancing. |
@@ -72,7 +72,7 @@ Contributions are warmly welcomed! 🌟 Help keep this resource comprehensive an
 
 1. **Fork** the repository 🍴
 2. **Add/Edit** entries in `README.md` following the established table structure.
-3. Ensure details include: **Name, Link, Factual Description, Pricing/Tier info, or Star Badges**.
+3. Ensure details include: **Name, Link, Factual Description, Pricing/Tier info, or Stars_Badges**.
 4. Submit a **Pull Request (PR)** with a summary of changes.
 
 ---
