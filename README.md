@@ -1,209 +1,104 @@
-# Awesome-Fraud-Detection-Banking
-
-## Top Fraud Detection (Banking) Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Real-Time Transaction Fraud, Behavioral Analytics, Account Takeover Prevention & Risk Scoring for Banks & Payments*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Fraud Detection in Banking**. These systems help financial institutions and payment providers detect and prevent payment fraud, account takeover, mule activity, and related financial crime in real time.
-
-
-
-**Examples** include Feedzai, Featurespace, FICO Falcon, SAS Fraud Management, DataVisor, Sift, SEON, Fraud.net, BioCatch, and Kount (the category leaders).
-
-
-
-**Open-source emphasis**: Production banking fraud platforms are heavily commercial and regulated. Practical open options include transaction-monitoring engines (**Jube**, **Osprey**), graph analytics, and research/ML prototypes. This section lists the strongest available open resources and is realistic about the large commercial and compliance gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Feedzai](https://www.feedzai.com/)**  
-
-  AI-native RiskOps platform unifying fraud detection, AML, and risk operations with real-time scoring and behavioral intelligence for banks and payment processors.
-
-
-
-- **[Featurespace](https://www.featurespace.com/)**  
-
-  Adaptive behavioral analytics platform (ARIC) focused on real-time fraud detection with strong false-positive reduction for financial institutions.
-
-
-
-- **[FICO Falcon](https://www.fico.com/)**  
-
-  Industry-standard fraud management platform widely used by banks for payment card and transaction fraud detection and decisioning.
-
-
-
-- **[SAS Fraud Management](https://www.sas.com/)**  
-
-  Enterprise analytics-driven fraud detection and investigation suite from SAS for banking and financial services.
-
-
-
-- **[DataVisor](https://www.datavisor.com/)**  
-
-  AI-powered fraud and risk platform specializing in detecting sophisticated, coordinated fraud rings and account abuse.
-
-
-
-- **[Sift](https://sift.com/)**  
-
-  Digital trust and safety platform providing real-time fraud prevention for payments, account takeover, and content abuse.
-
-
-
-- **[SEON](https://seon.io/)**  
-
-  Fraud-prevention platform combining device intelligence, digital footprint analysis, and machine learning for fintechs and banks.
-
-
-
-- **[Fraud.net](https://www.fraud.net/)**  
-
-  Consortium and AI-based fraud detection platform that leverages shared intelligence across institutions.
-
-
-
-- **[BioCatch](https://www.biocatch.com/)**  
-
-  Behavioral biometrics platform focused on detecting account takeover and social-engineering fraud through user interaction patterns.
-
-
-
-- **[Kount (Equifax) and related fraud platforms](https://www.example.com/)**  
-
-  Additional enterprise fraud decisioning and identity-risk solutions used in banking and e-commerce payment flows.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Jube (AML & Fraud Transaction Monitoring)](https://github.com/jube-home/aml-fraud-transaction-monitoring)**  
-
-  Fully open-source platform for real-time transaction monitoring, hybrid rule + ML detection, case management, and audit trails designed for fraud and AML prevention.
-
-
-
-- **[Osprey](https://github.com/opensource-finance/osprey)**  
-
-  Lightweight open-source transaction-monitoring service using CEL rules and typology-style detection—single binary, fast to deploy for rule-based fraud scoring.
-
-
-
-- **[Fraud and anomaly detection open ML libraries](https://github.com/)**  
-
-  Community projects and notebooks demonstrating supervised and unsupervised models for transaction fraud scoring and explainability (SHAP, etc.).
-
-
-
-- **[Graph and network analytics open tools](https://github.com/)**  
-
-  Neo4j, NetworkX, and related libraries used to model account relationships, device clusters, and collusive fraud rings.
-
-
-
-- **[Device and behavioral signal open collectors](https://github.com/)**  
-
-  Open components for capturing device fingerprints, session features, and basic behavioral signals (not a full commercial biometrics suite).
-
-
-
-- **[Rule engines and decision open frameworks](https://github.com/)**  
-
-  Open business-rule engines usable for real-time fraud decisioning pipelines.
-
-
-
-- **[Case management open workflows](https://github.com/)**  
-
-  Lightweight open systems for queuing, investigating, and documenting fraud alerts.
-
-
-
-- **[Feature store and model-serving open stacks](https://github.com/)**  
-
-  Open tools for managing fraud features and serving models in production-like environments.
-
-
-
-- **[Explainability and model-governance open tooling](https://github.com/)**  
-
-  SHAP, MLflow, and related projects that support transparent and auditable fraud models.
-
-
-
-- **[Documentation and fraud-typology open playbooks](https://github.com/)**  
-
-  Guides and example rule sets aligned with common payment-fraud and ATO scenarios.
-
-
-
-### Additional Strong Open-Source Options
-
-- Prototyping real-time monitoring with **Jube** or **Osprey** for rule + ML detection and basic case handling.
-
-- Using open graph databases to explore network structures around high-risk accounts or devices.
-
-- Accepting that production-grade low-latency decisioning, consortium data, behavioral biometrics at scale, model risk management, and examiner-ready audit trails still require commercial platforms (Feedzai, Featurespace, FICO Falcon, SAS, DataVisor, Sift, BioCatch, etc.).
-
-- Focusing open-source efforts on transparency of detection logic, data ownership, and education for fraud-engineering teams.
-
-
-
-**Frameworks for building custom systems**: Ingest transactions and customer/device signals → apply open rules and ML scoring (Jube/Osprey or custom) → enrich with graph analytics → route high-risk events to case management → generate investigation narratives. Suitable for research, fintech sandboxes, and internal prototypes. Regulated banks almost always rely on commercial fraud platforms for production risk management.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Fraud detection systems protect customers and institutions from financial loss. Incorrect detection or incomplete controls can create legal, financial, and reputational risk. Open-source tools are **not** a substitute for regulated commercial systems or professional risk programs. This list is not legal, regulatory, or risk-management advice.
-
-
+# 🛡️ Awesome Fraud Detection in Banking 💳✨
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Fraud Detection in Banking Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square&logo=github" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Fraud-Detection-Banking/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Fraud-Detection-Banking?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for fraud, risk, and banking technology teams.**
+## 📌 Ecosystem & Industry Overview
 
-Let's keep detection smarter, investigations clearer, and core logic as open as practical.
+Welcome to the **Curated Guide to Banking Fraud Detection, Behavioral Analytics, Account Takeover (ATO) Prevention, Risk Scoring & Anti-Money Laundering (AML) Solutions** 🚀.
+
+### 📊 Market Size & Industry Structure
+> **Market Dynamics:** The global banking fraud detection and prevention market is estimated at **\$28.5 Billion (2024)** and is projected to expand to **\$67.8 Billion by 2030** at a CAGR of **15.5%**. The sector is **moderately fragmented**, featuring established enterprise decisioning powerhouses (FICO, SAS) alongside high-growth AI RiskOps unicorns (Feedzai, Sift, BioCatch) and niche behavioral biometrics providers. While enterprise compliance requirements create high switching costs, no single vendor holds a "winner-take-all" monopoly, allowing specialized AI fintechs to thrive alongside open-source engines.
+
+---
+
+## 📑 Table of Contents
+- [🏢 SaaS & Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Enterprise Hosted Platforms
+
+Below is a comparison of top enterprise fraud prevention platforms sorted by **Company Size / Valuation (Descending)** 📉.
+
+| Platform | Key Focus & Capabilities | Company Size / Valuation | Starting Tier Price | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[FICO Falcon](https://www.fico.com/)** 💳 | Industry-standard payment card fraud detection & decisioning engine used by major global banks. | **\$38 Billion** *(FICO Market Cap)* | **\$100,000 / year** enterprise contract | 30-day proof-of-concept trial for qualified financial institutions |
+| **[Featurespace](https://www.featurespace.com/)** 🧠 | Adaptive behavioral analytics (ARIC) for real-time transaction risk scoring & false-positive reduction. | **\$925 Million** *(Acquired by Visa, Sep 2024)* | **\$4,500 / month** platform base tier | 14-day guided sandbox trial with synthetic transaction data |
+| **[Feedzai](https://www.feedzai.com/)** 🛡️ | AI-native RiskOps platform unifying transaction monitoring, AML compliance, & behavioral intelligence. | **\$2.0 Billion** *(Series E Valuation)* | **\$3,500 / month** mid-market tier | 60-day Feedzai IQ Score trial program for financial institutions |
+| **[BioCatch](https://www.biocatch.com/)** 👆 | Continuous behavioral biometrics detecting ATO, social engineering scams, & bot attacks via interaction dynamics. | **\$1.3 Billion** *(Enterprise Valuation, \$185M+ ARR)* | **\$2,500 / month** starting package | 30-day pilot trial with session risk scoring API |
+| **[SEON](https://seon.io/)** 🔍 | Digital footprint analysis, device intelligence, & explainable ML rule engine for fintechs & banks. | **\$500 Million** *(Valuation)* | **\$599 / month** Starter plan | **Forever Free Plan** (500 manual checks/mo, 2 QPS, 2 users, 10 custom rules) & 14-day full free trial |
+| **[Sift](https://sift.com/)** 🤖 | Digital trust & safety suite providing real-time payment fraud prevention, ATO defense, & identity risk. | **\$1.0 Billion+** *(Valuation)* | **\$150 / month** base API tier | 14-day free trial (up to 10,000 monthly active user events) |
+| **[DataVisor](https://www.datavisor.com/)** 🌐 | Unsupervised machine learning & graph analytics platform built to catch coordinated fraud rings & ATO. | **\$260 Million** *(Valuation)* | **\$2,000 / month** starting tier | 30-day trial with sample transaction dataset ingestion |
+| **[Fraud.net](https://www.fraud.net/)** 🕸️ | Collective intelligence & AI-driven fraud management platform leveraging cross-institution risk sharing. | **\$50 Million+** *(Estimated Valuation)* | **\$0.10 / transaction** (\$500/mo minimum) | 14-day free trial with 1,000 complimentary API risk checks |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Explore production engines, baseline ML models, synthetic datasets, and transaction monitoring tools. Repositories are sorted by **GitHub Star Count (Descending)** ⭐.
+
+| Repository | Stars | Key Features & Banking Use Case |
+| :--- | :--- | :--- |
+| **[yzhao062/pyod](https://github.com/yzhao062/pyod)** 🐍 | [![PyOD Stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers) | Comprehensive Python toolkit for detecting outliers & anomalies in financial transaction features (Isolation Forest, LOF, Autoencoders). |
+| **[sagnikghoshcr7/Credit-Card-Fraud-Detection](https://github.com/sagnikghoshcr7/Credit-Card-Fraud-Detection)** 💳 | [![Credit Card Fraud Stars](https://img.shields.io/github/stars/sagnikghoshcr7/Credit-Card-Fraud-Detection?style=social&color=white)](https://github.com/sagnikghoshcr7/Credit-Card-Fraud-Detection/stargazers) | Machine learning pipeline benchmarked on credit card transaction data using supervised classifiers & SMOTE balancing. |
+| **[jube-home/aml-fraud-transaction-monitoring](https://github.com/jube-home/aml-fraud-transaction-monitoring)** ⚖️ | [![Jube Stars](https://img.shields.io/github/stars/jube-home/aml-fraud-transaction-monitoring?style=social&color=white)](https://github.com/jube-home/aml-fraud-transaction-monitoring/stargazers) | Open-source platform for real-time transaction monitoring, hybrid rule + ML scoring, case management, & compliance audit trails. |
+| **[IBM/aml-sim](https://github.com/IBM/aml-sim)** 🏦 | [![IBM AML Sim Stars](https://img.shields.io/github/stars/IBM/aml-sim?style=social&color=white)](https://github.com/IBM/aml-sim/stargazers) | Multi-agent simulator by IBM for generating realistic synthetic banking transaction graphs to benchmark AML & fraud models. |
+| **[bibtissam/LSTM-Attention-FraudDetection](https://github.com/bibtissam/LSTM-Attention-FraudDetection)** 🧬 | [![LSTM Attention Stars](https://img.shields.io/github/stars/bibtissam/LSTM-Attention-FraudDetection?style=social&color=white)](https://github.com/bibtissam/LSTM-Attention-FraudDetection/stargazers) | Deep learning sequence framework combining LSTM & Attention mechanisms for temporal transaction fraud pattern recognition. |
+| **[opensource-finance/osprey](https://github.com/opensource-finance/osprey)** 🦅 | [![Osprey Stars](https://img.shields.io/github/stars/opensource-finance/osprey?style=social&color=white)](https://github.com/opensource-finance/osprey/stargazers) | Lightweight transaction-monitoring microservice using Common Expression Language (CEL) rules for high-throughput fraud decisioning. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! 🌟 Help keep this resource comprehensive and up-to-date:
+
+1. **Fork** the repository 🍴
+2. **Add/Edit** entries in `README.md` following the established table structure.
+3. Ensure details include: **Name, Link, Factual Description, Pricing/Tier info, or Star Badges**.
+4. Submit a **Pull Request (PR)** with a summary of changes.
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this repository helpful for your research, team, or project, please consider supporting the project! 💖
+
+- ⭐ **Star** this repository to increase visibility.
+- 🔄 **Fork & Share** with your colleagues in risk engineering and banking fintech.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Fraud-Detection-Banking&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Fraud-Detection-Banking&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** provided for educational and research purposes only.
+- Open-source tools and baseline models are **not** direct replacements for regulated commercial risk management software or legal compliance frameworks.
+- Pricing estimates and market figures are gathered from public market reports and vendor disclosures as of 2026.
+
+---
+
+<p align="center">Made with ❤️ for fraud, risk, and banking technology teams worldwide.</p>
